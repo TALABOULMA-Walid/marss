@@ -1,0 +1,15 @@
+# Sample Marss simconfig file
+ -machine single_core
+ 
+ # Logging options
+ -logfile test.log
+ -loglevel 99
+ # Start logging after 10million cycles
+ #-startlog 10m
+-logMemory
+ #-perfect-cache
+ # Stats file
+ #-stats test.stats
+#
+-time-stats-logfile  timedstat.stat
+-time-stats-period 10
